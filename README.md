@@ -54,7 +54,7 @@ Non-trainable params: 0
 _________________________________________________________________
 
 
- # Accuracy 73%
+ - Accuracy 73%
 
  - The initial model, with an accuracy of 73%, correctly predicts whether the funding was used effectively in 73 out of 100 cases. This is a decent start, but there is room for improvement. The accuracy indicates that while the model captures some patterns in the data, it may still miss or misinterpret certain relationships, leading to incorrect predictions in about 27% of cases.
 
@@ -88,7 +88,7 @@ Trainable params: 3,817
 Non-trainable params: 0
 _________________________________________________________________
 
- # Accuracy 77.9%
+ - Accuracy 77.9%
 
 - After optimizing the model by adding an additional hidden layer and fine-tuning the number of neurons and regularization techniques, the accuracy improved to 77.9%. This represents a significant enhancement in the model’s ability to correctly classify whether the funding was used effectively. The nearly 5% increase in accuracy means that the model now makes fewer mistakes, correctly predicting outcomes in almost 78 out of 100 cases.
 
